@@ -1,4 +1,4 @@
-# steam-deck-css-plugin
+# steam-deck-css-plugin (🛠️ in development!) 
 
 Run this command in terminal to INSTALL theme
 ```bash
