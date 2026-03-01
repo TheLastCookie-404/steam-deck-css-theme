@@ -1,0 +1,26 @@
+._3YYQ98HSj-wh5uljwl12bW {
+  & .Panel>.Panel:not(:focus) {
+    /* outline: 1px solid red; */
+    transform: rotateY(15deg);
+  }
+}
+
+.ReactVirtualized__Grid__innerScrollContainer {
+  & .Panel:focus-within:has(._3YYQ98HSj-wh5uljwl12bW)~* {
+    &>._3YYQ98HSj-wh5uljwl12bW .Panel>.Panel {
+      /* outline: 1px solid red; */
+      transform: rotateY(-15deg);
+    }
+  }
+
+  &>.Panel:first-child:focus-within:has(._2eJEJmUJveWN1xIBo6qxQ_) {
+    /* outline: 1px solid red; */
+    scale: 97.5%;
+  }
+}
+
+._2eJEJmUJveWN1xIBo6qxQ_ {
+  & .Panel>.Panel:not(:focus) {
+    transform: rotateY(2.5deg) !important;
+  }
+}
