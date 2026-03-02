@@ -1,1 +1,6 @@
-# steam-deck-css-plugin
+# steam-deck-css-theme (🛠️ in development!) 
+
+Run this command in terminal to INSTALL theme
+```bash
+cd $HOME/homebrew/theme && git clone https://github.com/TheLastCookie-404/steam-deck-css-theme.git
+```
